@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import DialogItem from './DialogItem/DialogItem';
 import Message from './Message/Message';
-import { NavLink, Link, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import s from './Dialogs.module.css';
 
 
@@ -65,9 +65,6 @@ return (
 	date={m.date} />
 )
 });
-
-
-
 
 
   return (
